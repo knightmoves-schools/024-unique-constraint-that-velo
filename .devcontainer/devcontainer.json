@@ -1,0 +1,8 @@
+{
+    "name": "Codespace with SQLite",
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+    "extensions": [
+        "alexcvzz.vscode-sqlite"
+    ],
+    "postCreateCommand": "sudo apt-get update && sudo apt-get install -y sqlite3"
+}
